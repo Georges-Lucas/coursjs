@@ -8,4 +8,22 @@ document.addEventListener("DOMContentLoaded", e => {
     // à afficher dans la console du navigateur 
     console.log(typeof User);
     User.user_print();
+
+    //opérateur
+    /* 
+    = 
+    += ajouter
+    -= enlever
+    ++ +1
+    -- -1
+    % modulo
+    * mult
+    /
+    <
+    >
+    >=
+    <=
+    &&
+    ||
+    */
 });
