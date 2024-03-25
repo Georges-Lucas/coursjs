@@ -17,4 +17,17 @@ export const options = {
     year: "numeric",
     mouth: "long",
     day: "numeric"
+
+    /* tableau */
+};export const tab = ["html", "css", true];
+
+export const Users = {
+    nom: "Doe",
+    prenom: "John",
+    ville: "NY",
+    age: 25
+    // tab_1.shift()//suprime le 1er élément
+    // tab_1.pop()//suprime le dernier élément
+    // tab_1.push(user);//ajoute un autre élément
+
 };

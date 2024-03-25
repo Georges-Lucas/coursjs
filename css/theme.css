@@ -5,6 +5,11 @@ header h1{
     padding: 1rem 0;
     background-color: #222;
     color: #fff;
+    cursor: pointer;
+}
+
+main article h2{
+    cursor: pointer;
 }
 article{
     max-width: 100rem;
@@ -32,6 +37,7 @@ article{
     background-color: #00b894;
     color: #fff;
 }
+
 footer *{
     text-align: center;
 }
