@@ -81,13 +81,13 @@ document.addEventListener("DOMContentLoaded", e => {
 
     const country = {
         drapeau: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAABNCAMAAABAMbBwAAAAKlBMVEX///8AJlTOESZveI/ccXgaMFvRJDQAGk7NABr99/cJJ1VzepHedXzQFyuu4Nf1AAAAUElEQVRoge3aNwHAAADDsHRv/nRLIV97yAREwFmazitHUe5nbcrQtE2pmvexCQqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBT6O/SLd+UF+mYtCmQ0pAIAAAAASUVORK5CYII=",
-        Description: "La France, pays de l'Europe occidentale, compte des villes médiévales, des villages alpins et des plages. Paris, sa capitale, est célèbre pour ses maisons de mode, ses musées d'art classique, dont celui du Louvre, et ses monuments comme la Tour Eiffel.",
-        Capitale: "Paris",
-        Gouvernement: "État unitaire, Régime semi-présidentiel",
-        Population: "67,75 millions (2021)",
-        Superficie: "551 695 km²",
-        Produit_Intérieur_Brut: "2,958 billions USD (2021)",
-        Indicatif_téléphonique: "+33",
-        Salaire_minimum: "1 539,42 EUR par mois (juin 2020)"
+        Description: String("La France, pays de l'Europe occidentale, compte des villes médiévales, des villages alpins et des plages. Paris, sa capitale, est célèbre pour ses maisons de mode, ses musées d'art classique, dont celui du Louvre, et ses monuments comme la Tour Eiffel."),
+        Capitale: String("Paris"),
+        Gouvernement: String("État unitaire, Régime semi-présidentiel"),
+        Population: String("67,75 millions (2021)"),
+        Superficie: String("551 695 km²"),
+        Produit_Intérieur_Brut: String("2,958 billions USD (2021)"),
+        Indicatif_téléphonique: String("+33"),
+        Salaire_minimum: String("1 539,42EUR par mois (juin 2020)")
     };
 });
